@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: quantummole
+"""
+
 from dataclasses import dataclass, field
 
 @dataclass

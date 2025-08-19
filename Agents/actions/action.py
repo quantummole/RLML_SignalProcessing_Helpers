@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: quantummole
+"""
+
 from typing import Callable
 from dataclasses import dataclass, field
 import traceback

@@ -132,7 +132,7 @@ class MultiHeadSelfAttention(nn.Module):
         
 class MultiHeadCrossAttention(nn.Module):
     def __init__(self, embed_dim, num_heads, kernel_func, dropout=0.1):
-        super(MultiHeadSelfAttention, self).__init__()
+        super(MultiHeadCrossAttention, self).__init__()
         assert embed_dim % num_heads == 0, "must be multiple for me to make it fast"
         self.embed_dim = embed_dim
         self.num_heads = num_heads

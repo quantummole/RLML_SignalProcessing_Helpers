@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: quantummole
+"""
+
 import time
 
 class Environment:

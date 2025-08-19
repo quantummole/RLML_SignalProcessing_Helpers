@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: quantummole
+"""
+
 class BaseAgent:
     def __init__(self, name, goal_manager, action_manager, memory, policy_engine, environment):
         self.name = name
